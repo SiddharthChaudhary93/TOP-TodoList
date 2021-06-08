@@ -1,0 +1,46 @@
+@import './variables';
+@import './addButton';
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Indie Flower', cursive;
+    background: $body-bg;
+}
+
+header{
+    
+    background: $header-bg;
+    color:$header-color;
+    nav{
+        padding:20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .list__bars{
+        font-size: $header-iconSize;
+        padding: 12px;
+    }
+    .list__bars:hover{
+        padding: 10px;
+        border: 2px solid $header-color;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .main__hading{
+        font-size: $header-fontSize;
+    }
+    a{
+        color:$header-color;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    ul{
+        padding:$header_ul_padding;
+        list-style: none;
+    }
+}
+
+
